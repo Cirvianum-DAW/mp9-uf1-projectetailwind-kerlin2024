@@ -544,6 +544,11 @@ video {
   margin-right: auto;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -719,9 +724,19 @@ video {
   color: rgb(255 221 210 / var(--tw-text-opacity));
 }
 
+.text-\[\#e5e5e5\] {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#3A0CA3\]:hover {
   --tw-text-opacity: 1;
   color: rgb(58 12 163 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#c9ada7\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(201 173 167 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
