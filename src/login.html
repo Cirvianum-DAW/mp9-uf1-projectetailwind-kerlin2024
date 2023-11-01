@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../src/styles.css" />
+    <link rel="stylesheet" href="../src/loginStyle.css" />
+</head>
+
+<body>
+    <nav>
+        <ul
+            class="flex justify-between items-center p-4 columns-4 h-16 border-2 border-[#000000] bg-gray-50 bg-opacity-100 font-bold ">
+            <li>
+                <img class="w-24 min-w-24" src="/src/img/logo4.png">
+            </li>
+            <li>
+                <a href="#" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Home</a>
+            </li>
+            <li>
+                <a href="#" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">SignUp</a>
+            </li>
+            <li>
+                <a href="#" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="text-xl mx-5 text-[#000000] hover:text-[#c9ada7]">Contact</a>
+        </ul>
+    </nav>
+    <div class="flex items-center justify-center min-h-screen  p-5" style="width: 100%;">
+        <div class="bg-gray-100 rounded-3xl shadow-xl max-w-xl p-10" style="width: 100%;">
+            <h1 class="text-3xl font-bold text-gray-900 text-center mb-5">Registrarse</h1>
+            <p class="text-center mb-5">Información necesaria para crear tu Cuenta</p>
+            <div class="mb-5">
+                <label class="text-xs font-semibold">Nombre</label>
+                <div class="flex items-center">
+                    <input type="text" class="w-full rounded-lg border-2 pl-2 border-gray-200 focus-border-indigo-500"
+                        placeholder="Kerlin">
+                </div>
+            </div>
+            <div class="mb-5">
+                <label class="text-xs font-semibold">Apellidos</label>
+                <div class="flex items-center">
+                    <input type="text" class="w-full rounded-lg border-2 pl-2 border-gray-200 focus-border-indigo-500"
+                        placeholder="Murillo Murillo">
+                </div>
+            </div>
+            <div class="mb-5">
+                <label class="text-xs font-semibold">Correo Electronico</label>
+                <div class="flex items-center">
+                    <input type="email" class="w-full pl-2 rounded-lg border-2 border-gray-200 focus-border-indigo-500"
+                        placeholder="kmurillo@example.com">
+                </div>
+            </div>
+            <div class="mb-5">
+                <label class="text-xs font-semibold">Contraseña</label>
+                <div class="flex items-center">
+                    <input type="password"
+                        class="w-full pl-2 rounded-lg border-2 border-gray-200 focus-border-indigo-500"
+                        placeholder="******">
+                </div>
+            </div>
+            <button
+                class="w-full bg-[#000000] hover:bg-[#302f2f] text-white rounded-lg px-3 py-3 font-semibold">Registrarse</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
